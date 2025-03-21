@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header img{
+    width: 100px;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+    
+
+}
+.header p{
+    font-size: 15px;
+    letter-spacing: 6px;
+    padding-top: 25px;
+    
+}
+.col {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-left: 200px;
+   margin-top: 150px;
+    
+    
+
+}
+.photo img{
+    width:600px ;
+}
+.col h1{
+    font-size: 260px;
+    font-weight: bolder;
+    font-style:italic;
+}
+.col p{
+    font-size: 50px;
+    letter-spacing: 28px;
+    font-weight: lighter;
+    margin-left: 115px;
+   
+}
+.nav-bar{
+    display: flex;
+   
+    gap: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 240px;
+    padding: 5px;
+    margin-left: 48px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    z-index: 100;
+    
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: 'Nike', sans-serif;
+    font-size: 20px;
+    
+}
+h1,h2{
+    font-family: 'Nike', sans-serif;
+    letter-spacing: 10px;
+    font-weight: lighter;
+
+}
+p,a{
+    font-family: "Outfit", sans-serif;
+}
+.dav{
+    height: 100vh;
+    
+}
+.first-name h1{
+    size:
+}
+.nav-link{
+    color: grey;
+    transition: 0.;
+}
+#page1:target ~ .nav-bar ul li:nth-child(1) a,
+#page2:target ~ .nav-bar ul li:nth-child(2) a,
+#page3:target ~ .nav-bar ul li:nth-child(3) a,
+#page4:target ~ .nav-bar ul li:nth-child(4) a {
+    color: white;
+}
+ul a{
+    text-decoration: none;
+}
+.page2{
+    height: 100vh;
+}
